@@ -23,6 +23,12 @@ All paths in the site are relative, so it works beneath a repository subpath. `.
 GitHub instructions were checked against the official documentation on 12 November 2026:
 https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
+## Visual student experience
+
+Each lesson uses **Look → Try → Do → Show**. Students see a short idea with picture tiles, a tap-to-choose practice activity, one practical instruction at a time, then one evidence question at a time. They can move back, revisit completed steps and ask for help. Full explanations, worked examples, task sequences, source titles and learning outcomes are in the Teacher guide. Practice cards open on demand, one card at a time.
+
+The prompt builder asks one question per screen. The research board uses four visual tabs with one section visible. Read-aloud reads only the current lesson step. Existing workbook backups remain compatible.
+
 ## Actual lesson content included
 
 Every ADEK lesson contains:
@@ -37,9 +43,9 @@ The workbench provides a rules/learning comparison, a transparent numeric learni
 
 ## Differentiation
 
-**Guided** supports SEN access through shorter chunks, NOW–NEXT–THEN, sentence frames, optional reading support, oral/scribed responses and practical scaffolding. Each lesson has specific teacher adjustment notes. Required task quantities remain: for example, six test inputs and at least five before/after retests.
+**Guided** supports SEN access through single-step cards, visual cues, sentence frames, optional reading support, oral/scribed responses and practical scaffolding. Each lesson has specific teacher adjustment notes. Required task quantities remain: for example, six test inputs and at least five before/after retests.
 
-**Independent** retains the full checklist and evidence requirements, with optional support available.
+**Independent** retains all task steps and evidence requirements, with optional support available.
 
 **Stretch** supports gifted and talented learners through counterexamples, experimental control, assumptions, tradeoffs, limitations and transfer. It adds reasoning depth after the core task, not just extra repetition.
 
@@ -73,6 +79,12 @@ The schedule includes 20 ADEK lessons, two practical periods and two reserves. A
 
 ## Edit the content
 
-Edit `lessons.js` for text, prompts, worksheets and route tasks. Each lesson is a data object with source title/page, explanation, example, practice materials, core checklist, support and extension. Edit `styles.css` for colours/layout and `app.js` for interactions. Keep the no-personal-data and source labels intact.
+Edit `lessons.js` for text, prompts, worksheets and route tasks, including the `visual` object for each lesson. Each lesson is a data object with source title/page, explanation, example, practice materials, core checklist, support and extension. Edit `styles.css` for colours/layout and `app.js` for interactions. Keep the no-personal-data and source labels intact.
+
+If regenerating the data, run `make_content.py` and then `visual_content.py` to add the visual lesson content. Run `node tests/check-content.cjs` to check source coverage and step counts.
 
 The source is framework-free HTML/CSS/JavaScript. There is no package installation or server to maintain.
+
+## Credits
+
+Made by Ashleigh Lavens. Based on ADEK (Abu Dhabi Department of Education and Knowledge), *Grade 6 Main Course, Term 1 Teacher Pack*, version 4, supplied as `Grade6_Main_Term1_Teacher_Pack_v4(1).pdf`. Classroom activities and visual presentation are adaptations by Ashleigh Lavens; original source credited to ADEK. The visible website footer links to the included source PDF.

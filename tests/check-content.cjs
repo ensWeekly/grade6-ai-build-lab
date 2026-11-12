@@ -4,6 +4,7 @@ vm.runInNewContext(fs.readFileSync(path.join(root,'lessons.js'),'utf8'),box);
 const lessons=box.window.LESSONS,original=JSON.parse(fs.readFileSync(path.join(root,'source-lessons.json'),'utf8'));
 assert.equal(lessons.length,24);
 assert.equal(lessons.filter(x=>x.kind==='adek').length,20);
+for(const l of lessons){assert(l.visual?.bite&&l.visual.question&&l.visual.feedback);assert.equal(l.visual.options.length,3);assert.equal(l.visual.steps.length,l.originalSteps.length,'Every full task needs a visual step: '+l.id);assert(l.visual.correct>=0&&l.visual.correct<3);assert(l.visual.bite.split(/\s+/).length<=55,'Keep the first screen short: '+l.id);}
 for(let i=0;i<20;i++){
  const x=lessons[i];assert.equal(x.id,i+1);assert.equal(x.title,original[i].title);assert.equal(x.page,5+3*i);
  assert(x.teach&&x.example?.body&&x.materials?.length&&x.guided.length===3&&x.stretch&&x.access&&x.exit);

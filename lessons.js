@@ -63,7 +63,26 @@ window.LESSONS = [
         "title": "Three sorting cards",
         "body": "1 Traffic-light timer: its person-set timing never changes from examples. 2 Learning spam filter: trained on labelled messages. 3 Learning suggestion tool: trained on examples of text. Sort each and give a reason; these descriptions specify the mechanism."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Some machines follow fixed rules. Others learn patterns from examples. Find out how a decision is made.",
+      "question": "What makes this a learning system?",
+      "options": [
+        "It has wheels",
+        "It learned from labelled examples",
+        "It is new"
+      ],
+      "correct": 1,
+      "feedback": "Look for training examples. Wheels or appearance do not show learning.",
+      "steps": [
+        "Compare the two system cards.",
+        "Match the two definitions and an example.",
+        "Sort all three system cards.",
+        "Give one reason for each choice.",
+        "Ask two genuine questions.",
+        "Agree one safe-use rule."
+      ]
+    }
   },
   {
     "id": 2,
@@ -140,7 +159,28 @@ window.LESSONS = [
         "title": "Compare",
         "body": "Did the rule machine change its rules? Which information did you infer from examples? What happened to the unusual circle? Log at least three differences, not just the labels."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Try two stations. Compare a fixed rule with a pattern learned from examples.",
+      "question": "How can you challenge a learned pattern?",
+      "options": [
+        "Try a new, unusual example",
+        "Repeat only the training cards",
+        "Make the card prettier"
+      ],
+      "correct": 0,
+      "feedback": "An unseen example can reveal where the inferred pattern fails.",
+      "steps": [
+        "Choose feeder, recorder and tester roles.",
+        "Run five inputs through the fixed rules.",
+        "Note whether the rule machine changed.",
+        "Study the labelled training cards.",
+        "Classify five new cards and check results.",
+        "Record three differences.",
+        "Design a fair rules-versus-learning test.",
+        "Predict an input that could cause failure."
+      ]
+    }
   },
   {
     "id": 3,
@@ -205,7 +245,25 @@ window.LESSONS = [
         "title": "Word bank",
         "body": "Rule-based: person-written steps. Data: examples or information. Learning system: derives a pattern from examples. Model: the learned pattern used for a prediction."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Look at how the machine decides. A model learns a pattern from data.",
+      "question": "A vehicle repeats a stored turn sequence. What is the evidence?",
+      "options": [
+        "It follows stored rules",
+        "It must be learning",
+        "Its colour tells us"
+      ],
+      "correct": 0,
+      "feedback": "Repeating a stored sequence shows fixed instructions, not learning from examples.",
+      "steps": [
+        "Compare the two decision processes.",
+        "Name two differences.",
+        "Give one everyday example of each.",
+        "Use rule-based, learning, data and model.",
+        "Explain how the decisions are made."
+      ]
+    }
   },
   {
     "id": 4,
@@ -278,7 +336,28 @@ window.LESSONS = [
         "title": "On-screen alternative",
         "body": "Open Workbench → Train a small model. It supplies eight examples per class and six held-back test cases. Compare the sets using the same test cases. It is a transparent numeric model, not a camera-based classifier."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Train with one set of examples. Test with different examples. Keep personal data out.",
+      "question": "Which cards should be used for the first test?",
+      "options": [
+        "The training cards again",
+        "New cards kept out of training",
+        "Only the easiest training card"
+      ],
+      "correct": 1,
+      "feedback": "Held-back examples check what happens on new inputs.",
+      "steps": [
+        "Choose two non-personal categories.",
+        "Prepare 8–10 training examples per category.",
+        "Hold back three test examples per category.",
+        "Train using only the training examples.",
+        "Predict the six test labels.",
+        "Run all six tests and record results.",
+        "Explain how the training data mattered.",
+        "Check data safety and suggest one improvement."
+      ]
+    }
   },
   {
     "id": 5,
@@ -349,7 +428,26 @@ window.LESSONS = [
         "title": "Compare prompts",
         "body": "Vague: “Build a good bridge.” Structured: “Using the supplied inventory and sketch, give at most six short assembly steps, followed by inventory, gap/vehicle-fit and physical-test checks.” Compare actual completion against the task."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Tell AI the goal, the facts it needs and the answer format. Then check what it gives you.",
+      "question": "Which prompt is easier to check?",
+      "options": [
+        "Make something nice",
+        "Use this inventory and give six steps",
+        "Do anything you want"
+      ],
+      "correct": 1,
+      "feedback": "The inventory and requested format give you conditions to verify.",
+      "steps": [
+        "Choose the defined classroom task.",
+        "Write Goal, Context and Format.",
+        "Give the prompt to your teacher to run.",
+        "Check whether the task was completed.",
+        "Improve one prompt feature.",
+        "Verify the output and check a risk."
+      ]
+    }
   },
   {
     "id": 6,
@@ -422,7 +520,28 @@ window.LESSONS = [
         "title": "Two structures to test",
         "body": "A: Goal → Context → Format, with numbered steps. B: Context → Goal → Format, with a step/material/check table. Run through your teacher or compare the clearly labelled fixed outputs in Workbench → Prompt builder. Verify each result; fixed samples do not react to your prompt."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Try two prompt structures on the same task. Choose using evidence.",
+      "question": "What makes this a fair comparison?",
+      "options": [
+        "Give each prompt different facts",
+        "Keep the task and facts the same",
+        "Choose the longest answer"
+      ],
+      "correct": 1,
+      "feedback": "Keep the task requirements constant so the structure is what you compare.",
+      "steps": [
+        "Name the three task requirements.",
+        "Draft two prompt structures.",
+        "Predict which will complete the task.",
+        "Teacher runs both; record the outputs.",
+        "Check completion and accuracy.",
+        "Choose a reusable template.",
+        "Add verification and a risk check.",
+        "Try the template on a second task."
+      ]
+    }
   },
   {
     "id": 7,
@@ -483,7 +602,25 @@ window.LESSONS = [
         "title": "Reference and outputs",
         "body": "Reference: 6 plates and no cardboard. Output 1: “Use six plates and compare the layout with the approved sketch.” Output 2: “Use eight plates and add cardboard.” Output 3: “Join it over there.” Decide correct/incorrect/unclear, give a reason and select a check. Correct here means the statement matches its reference; it does not prove the whole bridge works."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Correct matches the evidence. Incorrect conflicts with it. Unclear needs more information.",
+      "question": "The tray has six plates. The guide says use eight. Your verdict?",
+      "options": [
+        "Correct",
+        "Incorrect",
+        "Unclear"
+      ],
+      "correct": 1,
+      "feedback": "The count conflicts with the reference. Count the actual pieces.",
+      "steps": [
+        "Read the task and reference.",
+        "Classify all three outputs.",
+        "Give a reason for every verdict.",
+        "Spot a warning signal.",
+        "Choose what to check or who to ask."
+      ]
+    }
   },
   {
     "id": 8,
@@ -550,7 +687,27 @@ window.LESSONS = [
         "title": "Possible verification actions",
         "body": "Count the actual pieces. Compare with the approved sketch. Ask a person to identify the joint. Run a physical test before making a strength claim. Choose an action appropriate to the problem."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Visit four checking stations. Rank trust using evidence.",
+      "question": "A guide says “join it there”. What should you do?",
+      "options": [
+        "Guess the joint",
+        "Ask which joint the sketch means",
+        "Trust it because it sounds confident"
+      ],
+      "correct": 1,
+      "feedback": "The connection is unclear. Resolve it before acting.",
+      "steps": [
+        "Read the task and output at each station.",
+        "Give each output a verdict and reason.",
+        "Choose a verification action each time.",
+        "Rank all outputs on a trust ladder.",
+        "Explain your top and bottom choices.",
+        "Name one risk of the weakest output.",
+        "Record the full clinic evidence."
+      ]
+    }
   },
   {
     "id": 9,
@@ -614,7 +771,24 @@ window.LESSONS = [
         "title": "Rewrite the identifying input",
         "body": "Problem prompt: “Use my real name and real student number in every instruction.” Rewrite it with a fictional builder code or no identifier. Never enter actual identifying details into the site or a teacher-run AI tool."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Name what could go wrong, who it affects and a rule that reduces the risk.",
+      "question": "A guide promises strength without a physical test. What is missing?",
+      "options": [
+        "A nicer font",
+        "Test evidence",
+        "A longer title"
+      ],
+      "correct": 1,
+      "feedback": "A strength claim needs evidence. A confident sentence is not a physical test.",
+      "steps": [
+        "Choose two genuine AI risks.",
+        "Name who each risk affects.",
+        "Explain why each risk matters.",
+        "Write one rule that reduces a risk."
+      ]
+    }
   },
   {
     "id": 10,
@@ -681,7 +855,27 @@ window.LESSONS = [
         "title": "Rule set to audit",
         "body": "Only teacher-operated AI. No personal data. Check outputs against references. Stop and ask a person when unclear. Be honest about limits. For each entry: identify the rule, gap, affected user and mitigation. Rank likelihood and impact with a reason."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Check our AI-use records. Find a gap and choose the risk to fix first.",
+      "question": "What should an audit check?",
+      "options": [
+        "What actually happened against agreed rules",
+        "Only the display colours",
+        "Who can finish fastest"
+      ],
+      "correct": 0,
+      "feedback": "An audit uses records and rules. It should improve the process, not blame people.",
+      "steps": [
+        "Read the anonymised use log.",
+        "Compare entries with the rules.",
+        "Name gaps, risks and affected users.",
+        "Place risks on the likelihood/impact matrix.",
+        "Choose the priority risk.",
+        "Write a rule that closes the gap.",
+        "Explain the rule to the class."
+      ]
+    }
   },
   {
     "id": 11,
@@ -742,7 +936,25 @@ window.LESSONS = [
         "title": "Guided integrated case",
         "body": "Reference: a prompt-based guide must use 6 plates and no cardboard. Output: “Use 8 plates and a cardboard deck; it will definitely hold.” Name the system/task, build a structured prompt, give an accuracy verdict and a risk verdict, then justify use/change/reject."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Connect four moves: understand the system, write a prompt, check the output and reduce risk.",
+      "question": "Before using an output, which checks matter?",
+      "options": [
+        "Accuracy only",
+        "Risk only",
+        "Accuracy and risk"
+      ],
+      "correct": 2,
+      "feedback": "A useful decision needs both checks and a reason.",
+      "steps": [
+        "Read the guided task.",
+        "Name the system and write the prompt.",
+        "Give an accuracy verdict and reason.",
+        "Check risk and choose a mitigation.",
+        "Explain one responsible-use choice."
+      ]
+    }
   },
   {
     "id": 12,
@@ -805,7 +1017,27 @@ window.LESSONS = [
         "title": "The four station cards",
         "body": "Station 1: Which system mechanism is involved and why? Station 2: Write a Goal–Context–Format request using the fictional inventory from Lesson 5. Station 3: compare the output “use 8 plates” with a 6-plate inventory. Station 4: name the risk, affected user and mitigation. Finish with the use decision and weakest-strand diagnosis."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Work through four stations. Decide whether to use, change or reject the output.",
+      "question": "Which decision has evidence?",
+      "options": [
+        "Use it: it looks neat",
+        "Change it: Step 3 does not identify the joint",
+        "Use it: the AI sounds sure"
+      ],
+      "correct": 1,
+      "feedback": "The stated joint problem gives a reason for the change.",
+      "steps": [
+        "Station 1: name and justify the system type.",
+        "Station 2: write a clear prompt.",
+        "Station 3: judge accuracy with evidence.",
+        "Station 4: check risk and a mitigation.",
+        "Record accuracy and risk verdicts.",
+        "Decide use, change or reject.",
+        "Choose one strand to improve."
+      ]
+    }
   },
   {
     "id": 13,
@@ -881,7 +1113,25 @@ window.LESSONS = [
         "title": "Practical brief",
         "body": "Teacher trials and agrees a manageable tabletop gap and the same toy vehicle before confirming the brief. Suggested starting point: 20 cm and three crossings. Use actual pieces and dimensions; do not assume the fictional practice inventory matches your kit."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Plan the guide before you build. Your teacher checks the plan first.",
+      "question": "Which plan is ready for a teacher check?",
+      "options": [
+        "A goal with no checking method",
+        "Goal, inputs, prompt, checks and risk mitigation",
+        "Only a picture"
+      ],
+      "correct": 1,
+      "feedback": "All five planning parts are needed before the approve-to-build check.",
+      "steps": [
+        "Read the task and state the goal.",
+        "Plan a role, task and rule.",
+        "List the non-personal inputs.",
+        "Explain how outputs will be checked.",
+        "Name a risk, add mitigation, and submit the plan."
+      ]
+    }
   },
   {
     "id": 14,
@@ -947,7 +1197,25 @@ window.LESSONS = [
         "title": "Tricky input cards",
         "body": "A: gap missing. B: the same field says both 20 cm and 30 cm. C: the approved sketch needs cardboard, but the inventory excludes it. The expected response identifies the missing/conflicting fact and asks a person. Log the actual output and classified failure, not just the expected answer."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Try a normal input and a tricky input. Add a human fallback when a check fails.",
+      "question": "The required gap is missing. What should the helper do?",
+      "options": [
+        "Invent a gap",
+        "Ask a person to confirm the missing fact",
+        "Promise the bridge will work"
+      ],
+      "correct": 1,
+      "feedback": "Missing information needs verification, not an invented number.",
+      "steps": [
+        "Copy your approved prompt structure.",
+        "Run one normal input and record the result.",
+        "Try a tricky input; name the failure.",
+        "Add an IF check fails THEN fallback.",
+        "Log a change and explain why."
+      ]
+    }
   },
   {
     "id": 15,
@@ -1018,7 +1286,25 @@ window.LESSONS = [
         "title": "Fixed samples for practice",
         "body": "Workbench → Prompt builder contains a weak output and a revised output for a fixed fictional inventory. They help you practise checking; they do not demonstrate that your own prompt has worked."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Build the guide from your approved plan. Check, change one feature and log the result.",
+      "question": "What makes a change an improvement?",
+      "options": [
+        "It uses more colours",
+        "A checked result shows it helped",
+        "It takes more time"
+      ],
+      "correct": 1,
+      "feedback": "Use evidence of the effect, not just the fact that something changed.",
+      "steps": [
+        "Re-open the approved plan.",
+        "Run the prompt through your teacher.",
+        "Check the output against the reference.",
+        "Flag errors and make one improvement.",
+        "Record change, result and privacy check."
+      ]
+    }
   },
   {
     "id": 16,
@@ -1093,7 +1379,25 @@ window.LESSONS = [
         "title": "Six-row log",
         "body": "For every case record input, actual output, expected check, verdict and reason. Then count correct/6, show a failure/fallback/fix and complete accuracy, clarity and privacy checks."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Test all six requests. Keep the failures: they tell you what to improve.",
+      "question": "Four of six requests meet all checks. What do you record?",
+      "options": [
+        "6/6 because some looked good",
+        "4/6, with the failed cases and reasons",
+        "Only the best case"
+      ],
+      "correct": 1,
+      "feedback": "Record the actual count, then show fallback and a fix for a failure.",
+      "steps": [
+        "Check the plan and fallback are in place.",
+        "Define what a correct output must do.",
+        "Run all six curated requests.",
+        "Count correct out of six; use fallback for failures.",
+        "Document a fix and complete the risk check."
+      ]
+    }
   },
   {
     "id": 17,
@@ -1156,7 +1460,27 @@ window.LESSONS = [
         "title": "Review headings",
         "body": "Accuracy: matches the reference and constraints. Usefulness: helps the intended builder take the next action. Risk: identifies who could be affected and how harm/confusion is reduced. Feedback: two specific strengths and one actionable improvement."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Review accuracy, usefulness and risk. Change one feature using feedback.",
+      "question": "Which feedback can you act on?",
+      "options": [
+        "It is nice",
+        "Step 3 needs a labelled joint",
+        "I like green"
+      ],
+      "correct": 1,
+      "feedback": "A specific issue suggests a concrete revision that can be tested.",
+      "steps": [
+        "Check progress against success criteria.",
+        "Judge accuracy, usefulness and risk.",
+        "Ask a peer for specific feedback.",
+        "Choose one improvement.",
+        "Make the change.",
+        "Check the result.",
+        "Explain why the solution improved."
+      ]
+    }
   },
   {
     "id": 18,
@@ -1229,7 +1553,28 @@ window.LESSONS = [
         "title": "Risk review prompts",
         "body": "Wrong output: what would the user do? Fairness/access: who might be left out? Privacy: are all inputs non-personal? Place risks on the matrix, act on any priority risk, confirm a person can intervene and state limitations honestly."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Retest at least five of the same cases before and after your change.",
+      "question": "What should stay the same in the before/after test?",
+      "options": [
+        "The cases and their expected checks",
+        "Only the title",
+        "Nothing"
+      ],
+      "correct": 0,
+      "feedback": "The same cases and checks let you compare results fairly.",
+      "steps": [
+        "Choose the final improvement goal.",
+        "Make the planned change.",
+        "Retest at least five identical known cases.",
+        "List wrong-output, fairness and privacy risks.",
+        "Place risks on the matrix.",
+        "Act on priority risks; confirm no personal data.",
+        "Write limits and freeze the final version.",
+        "Swap risk matrices for a peer sense-check."
+      ]
+    }
   },
   {
     "id": 19,
@@ -1310,7 +1655,26 @@ window.LESSONS = [
         "title": "Pitch and reflection",
         "body": "Present the finished solution and two justified design/evaluation choices using your own evidence. Ask/answer one why question, state one learning and set a next-stage goal."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Show your evidence. Explain two choices and set a next goal.",
+      "question": "What should your pitch explain?",
+      "options": [
+        "Only the solution name",
+        "Two design or testing choices with reasons",
+        "Only the decoration"
+      ],
+      "correct": 1,
+      "feedback": "The reasons and evidence show your understanding.",
+      "steps": [
+        "Review the four-strand summary.",
+        "Complete the individual four-strand task.",
+        "Prepare a 60-second pitch with two justified choices.",
+        "Present to your group.",
+        "Ask or answer a why question.",
+        "Record one learning and a next-stage goal."
+      ]
+    }
   },
   {
     "id": 20,
@@ -1377,7 +1741,27 @@ window.LESSONS = [
         "title": "Four-strand summary",
         "body": "CU: explain rule-based versus learning. SD: build a structured prompt solution. CE: verify outputs and choose use/change/reject. GE: identify affected users, risks and mitigations. Add your own evidence reference and next-stage goal."
       }
-    ]
+    ],
+    "visual": {
+      "bite": "Visit two stations. Give specific feedback and choose your next step.",
+      "question": "Which feedback is useful?",
+      "options": [
+        "Everything is good",
+        "CE: your six-case tests make the check visible",
+        "Nice colours only"
+      ],
+      "correct": 1,
+      "feedback": "A strand label and specific evidence make feedback actionable.",
+      "steps": [
+        "Set out the final solution and checked evidence.",
+        "Present two justified choices.",
+        "Visit at least two stations; leave strand-tagged feedback.",
+        "Collect feedback about your work.",
+        "Summarise all four strands.",
+        "Set one next-stage goal.",
+        "Confirm the responsible-use message and limits."
+      ]
+    }
   },
   {
     "id": 21,
@@ -1426,7 +1810,24 @@ window.LESSONS = [
       }
     ],
     "exit": "Which part needs a physical check before the crossing trial?",
-    "duration": "55 min practical"
+    "duration": "55 min practical",
+    "visual": {
+      "bite": "Build with the real pieces. Check each connection before moving on.",
+      "question": "A piece in the guide is missing from the tray. What next?",
+      "options": [
+        "Invent a replacement without checking",
+        "Stop, check the inventory and ask a person",
+        "Ignore the guide entirely"
+      ],
+      "correct": 1,
+      "feedback": "Resolve the mismatch and record any agreed change.",
+      "steps": [
+        "Follow the checked plan and guide.",
+        "Measure the gap and check the vehicle fits.",
+        "Record your own making skill.",
+        "List changes to the design and plan."
+      ]
+    }
   },
   {
     "id": 22,
@@ -1475,7 +1876,24 @@ window.LESSONS = [
       }
     ],
     "exit": "What does your test show, and what does it not show?",
-    "duration": "55 min practical"
+    "duration": "55 min practical",
+    "visual": {
+      "bite": "Use the same gap and vehicle. Record three real crossings, then improve and retest.",
+      "question": "How do you keep the crossing test fair?",
+      "options": [
+        "Change the vehicle each time",
+        "Use the same vehicle and test conditions",
+        "Record only successes"
+      ],
+      "correct": 1,
+      "feedback": "Keep conditions constant and record failures as well as successes.",
+      "steps": [
+        "Outline the test and pass conditions.",
+        "Run and record all three actual trials.",
+        "Compare results with success criteria.",
+        "Improve one feature and explain the retest and user impact."
+      ]
+    }
   },
   {
     "id": 23,
@@ -1517,7 +1935,23 @@ window.LESSONS = [
         "frame": "I completed ___ and can explain ___."
       }
     ],
-    "exit": "What is now complete, and what still needs teacher review?"
+    "exit": "What is now complete, and what still needs teacher review?",
+    "visual": {
+      "bite": "Choose one missing piece of evidence. Finish it with your teacher’s support.",
+      "question": "What should you finish first?",
+      "options": [
+        "A missing required task",
+        "Extra decoration",
+        "A different project"
+      ],
+      "correct": 0,
+      "feedback": "Prioritise the required learning and evidence.",
+      "steps": [
+        "Find the missing required work.",
+        "Agree a priority with the teacher.",
+        "Complete and review the evidence."
+      ]
+    }
   },
   {
     "id": 24,
@@ -1559,6 +1993,22 @@ window.LESSONS = [
         "frame": "I completed ___ and can explain ___."
       }
     ],
-    "exit": "What is now complete, and what still needs teacher review?"
+    "exit": "What is now complete, and what still needs teacher review?",
+    "visual": {
+      "bite": "Choose one missing piece of evidence. Finish it with your teacher’s support.",
+      "question": "What should you finish first?",
+      "options": [
+        "A missing required task",
+        "Extra decoration",
+        "A different project"
+      ],
+      "correct": 0,
+      "feedback": "Prioritise the required learning and evidence.",
+      "steps": [
+        "Find the missing required work.",
+        "Agree a priority with the teacher.",
+        "Complete and review the evidence."
+      ]
+    }
   }
 ];
