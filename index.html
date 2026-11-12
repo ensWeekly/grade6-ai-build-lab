@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#087b78"><meta name="description" content="Grade 6 AI Build Battle — ADEK lessons, accessible learning routes and a hands-on bridge challenge.">
+ <title>AI Build Lab · Grade 6 Design</title>
+ <link rel="icon" href="assets/bridge-mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to lesson content</a>
+<header class="topbar">
+ <a class="brand" href="#home" aria-label="AI Build Lab home"><img src="assets/bridge-mark.svg" alt="" width="42" height="42"><span>AI Build Lab<small>GRADE 6 · DESIGN</small></span></a>
+ <span class="top-context">Think like a designer. Test like an engineer.</span>
+ <div class="header-actions"><span id="save-state" role="status">Saved on this device</span><button class="icon-btn" data-action="access" aria-label="Open reading settings">Aa</button></div>
+</header>
+<div class="shell">
+ <aside class="sidebar" aria-label="Learning navigation">
+  <div class="course-label">YOUR BUILD JOURNEY</div>
+  <nav id="nav">
+   <a href="#home" data-page="home">⌂ <span>Mission overview</span></a>
+   <a href="#lessons" data-page="lessons">▦ <span>Lessons</span><span class="nav-count">20 + 2</span></a>
+   <a href="#tools" data-page="tools">⚒ <span>Workbench</span></a>
+   <a href="#board" data-page="board">▤ <span>Research board</span></a>
+   <a href="#evidence" data-page="evidence">✓ <span>My evidence</span></a>
+   <a href="#teacher" data-page="teacher">◎ <span>Teacher guide</span></a>
+  </nav>
+  <div class="sidebar-progress"><div class="eyebrow">READY FOR REVIEW</div><strong id="progress-label">0 of 22 lessons</strong><progress id="course-progress" max="22" value="0">0</progress><p>Small steps. Real evidence.</p><a href="#evidence">Open my evidence →</a></div>
+  <div class="sidebar-note">No student AI login.<br>Your teacher runs live AI.<br>Your work stays on this device.</div>
+ </aside>
+ <main id="main" tabindex="-1"></main>
+</div>
+<dialog id="access-dialog" aria-labelledby="access-title"><div class="dialog-head"><h2 id="access-title">Make it comfortable</h2><button class="icon-btn" data-action="close-access" aria-label="Close settings">×</button></div><p>Choose what helps you read and focus.</p><label class="setting"><span>Larger text</span><input type="checkbox" id="large-setting" data-setting="large"></label><label class="setting"><span>More contrast</span><input type="checkbox" id="contrast-setting" data-setting="contrast"></label><label class="setting"><span>More space between lines</span><input type="checkbox" id="spacing-setting" data-setting="spacing"></label><p class="small">Read-aloud uses voices available on this device. If it is unavailable, ask a partner or teacher to read with you.</p><button class="btn" data-action="close-access">Done</button></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<input id="import-file" type="file" accept="application/json,.json" hidden>
+<noscript><p class="noscript">Turn on JavaScript to use the interactive worksheets. The source teacher pack is available in <a href="resources/adek-grade6-teacher-pack.pdf">Resources</a>.</p></noscript>
+<script src="lessons.js"></script><script src="app.js"></script>
+</body></html>

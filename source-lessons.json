@@ -1,0 +1,410 @@
+[
+  {
+    "id": 1,
+    "week": 1,
+    "type": "Core",
+    "title": "Unit Launch - Rule-Based vs Learning Systems",
+    "page": 5,
+    "success": [
+      "I can ask at least two genuine questions about rule-based and learning systems.",
+      "I can sort three systems into 'follows fixed rules' or 'learns from data' and give a reason for each.",
+      "I can help write our class responsible-use rules for AI tools."
+    ],
+    "originalSteps": [
+      "Watch the two short board clips and note which machine was told every step.",
+      "Read the two definitions and add one example of each to your page.",
+      "Sort the three system cards into 'fixed rules' or 'learns from data' with your partner.",
+      "Write one reason under each card - what is your evidence?",
+      "Post at least two genuine questions on the class question wall.",
+      "Agree one responsible-use rule and add it to the class charter."
+    ]
+  },
+  {
+    "id": 2,
+    "week": 1,
+    "type": "Lab",
+    "title": "Rule vs Learning - Hands-On Exploration (Lab)",
+    "page": 8,
+    "success": [
+      "I can run the rule-card machine and the learn-from-examples game and record what each does.",
+      "I can log at least three differences I observed between them.",
+      "I can design a fair test that would reveal whether a system follows rules or learns."
+    ],
+    "originalSteps": [
+      "Assign roles: feeder, recorder, tester.",
+      "At Station A, feed five inputs through the rule cards, including one unusual input, and log each output.",
+      "Note whether Station A ever changed its behaviour.",
+      "At Station B, study the labelled example cards and agree a pattern as a group.",
+      "Classify five new cards using only the pattern you built; log your guesses and the correct answers.",
+      "Record at least three differences between the two stations.",
+      "Design one test that would reveal whether an unknown system follows rules or learns.",
+      "Predict what input would break each station and note it."
+    ]
+  },
+  {
+    "id": 3,
+    "week": 2,
+    "type": "Core",
+    "title": "Rules vs Learning - How Each System Works",
+    "page": 11,
+    "success": [
+      "I can name two features that separate rule-based and learning systems.",
+      "I can give one real example of each and explain why it fits.",
+      "I can use the words rule-based, learning, data and model correctly."
+    ],
+    "originalSteps": [
+      "Copy the two-column feature chart.",
+      "Add one example to each row with your partner.",
+      "Classify two everyday systems using the chart.",
+      "For each, underline the feature that decided your answer.",
+      "Write two sentences using data and model correctly."
+    ]
+  },
+  {
+    "id": 4,
+    "week": 2,
+    "type": "Lab",
+    "title": "Train a Simple Model (Lab)",
+    "page": 14,
+    "success": [
+      "I can sort examples into training and testing sets and train a simple classifier.",
+      "I can test the model on new examples and record how it did.",
+      "I can explain how my training examples changed what the model learned, and name one data-safety rule."
+    ],
+    "originalSteps": [
+      "Choose two categories of non-personal items (for example, dates versus dried lemons, or circles versus triangles).",
+      "Collect and label 8-10 clear training examples per category.",
+      "Set aside 3 testing examples per category and keep them hidden.",
+      "Train the model (teacher-operated classifier or your paper-classifier) using training examples only.",
+      "Predict how each testing example will be classified.",
+      "Test each held-back example and log correct or incorrect.",
+      "Explain how your training examples shaped what the model learned.",
+      "Run the data-safety and risk check, then write one improvement to your training set."
+    ]
+  },
+  {
+    "id": 5,
+    "week": 3,
+    "type": "Core",
+    "title": "Structured Prompts to Complete a Task",
+    "page": 17,
+    "success": [
+      "I can write a structured prompt with a clear goal, context and format.",
+      "I can say whether the task was completed and why.",
+      "I can improve my prompt once to complete the task more fully."
+    ],
+    "originalSteps": [
+      "Read the defined task and underline what 'complete' means.",
+      "Write a structured prompt with Goal, Context and Format.",
+      "Hand your prompt to the teacher to run on the approved tool.",
+      "Judge whether the output completed the task.",
+      "Make one adjustment to your prompt to complete it more fully.",
+      "Verify the output against the task and complete a quick risk check."
+    ]
+  },
+  {
+    "id": 6,
+    "week": 3,
+    "type": "Lab",
+    "title": "Prompt-to-Task Workshop (Lab)",
+    "page": 20,
+    "success": [
+      "I can complete a richer task with a structured prompt and compare two structures.",
+      "I can design a reusable prompt template for similar tasks.",
+      "I can check an output for accuracy and complete a risk check."
+    ],
+    "originalSteps": [
+      "List the three requirements of the richer task.",
+      "Draft two structured prompts that order Goal, Context and Format differently.",
+      "Predict which structure will complete the task more fully.",
+      "Have the teacher run both prompts; record the outputs.",
+      "Mark which requirements each output met and verify the facts.",
+      "Choose the stronger structure and turn it into a reusable template with labelled slots.",
+      "Build a verification step and a risk check into the template.",
+      "Test your template mentally on a second, similar task."
+    ]
+  },
+  {
+    "id": 7,
+    "week": 4,
+    "type": "Core",
+    "title": "Judging Outputs - Correct, Incorrect, Unclear",
+    "page": 23,
+    "success": [
+      "I can sort outputs into correct, incorrect, and unclear.",
+      "I can give a reason for each judgement I make.",
+      "I can name one action to take when an output cannot be trusted."
+    ],
+    "originalSteps": [
+      "Read the task each output was meant to answer.",
+      "Read the output and check it against the task and any given source.",
+      "Assign a verdict: correct, incorrect, or unclear.",
+      "Write a six-word reason for the verdict.",
+      "Name one action for any unclear or incorrect output."
+    ]
+  },
+  {
+    "id": 8,
+    "week": 4,
+    "type": "Lab",
+    "title": "Output Triage Clinic (Lab)",
+    "page": 26,
+    "success": [
+      "I can run the triage routine across a full set of outputs.",
+      "I can rank outputs by trustworthiness and defend my order.",
+      "I can choose a verification action for outputs I cannot trust."
+    ],
+    "originalSteps": [
+      "At each station, read the task and the curated output.",
+      "Assign a verdict: correct, incorrect, or unclear.",
+      "Write a checkable reason for the verdict.",
+      "Choose a verification action (check a source, compare to original, re-prompt, ask a person).",
+      "After all stations, rank outputs on the trust ladder from most to least trustworthy.",
+      "Agree a group defence for the top and bottom placements.",
+      "Name one risk of using the least trustworthy output as-is."
+    ]
+  },
+  {
+    "id": 9,
+    "week": 5,
+    "type": "Core",
+    "title": "Risks and Responsible Use",
+    "page": 29,
+    "success": [
+      "I can name two genuine risks of using an AI tool.",
+      "I can explain who each risk could affect.",
+      "I can state a responsible-use rule that reduces a risk."
+    ],
+    "originalSteps": [
+      "Read the scenario card.",
+      "Decide the risk family: accuracy or safety/privacy.",
+      "Name who could be affected.",
+      "Attach one responsible-use rule that reduces the risk."
+    ]
+  },
+  {
+    "id": 10,
+    "week": 5,
+    "type": "Lab",
+    "title": "Class AI Risk Audit (Lab)",
+    "page": 32,
+    "success": [
+      "I can audit our AI use against a rule set and find a gap.",
+      "I can place risks on a matrix by likelihood and impact.",
+      "I can propose one rule to reduce the highest-priority risk."
+    ],
+    "originalSteps": [
+      "Read the anonymised class AI-use log.",
+      "Check each entry against the responsible-use rule set.",
+      "Flag any gap and name the risk and who it affects.",
+      "Place each flagged risk on the likelihood-impact matrix.",
+      "Circle the highest-priority risk to mitigate first.",
+      "Write one responsible-use rule that closes that gap.",
+      "Pitch the rule for the class charter."
+    ]
+  },
+  {
+    "id": 11,
+    "week": 6,
+    "type": "Core",
+    "title": "Bringing the Strands Together",
+    "page": 35,
+    "success": [
+      "I can complete a guided challenge that uses all four strands.",
+      "I can explain how the system type and prompt shaped the output.",
+      "I can name one responsible-use choice I made."
+    ],
+    "originalSteps": [
+      "Name the system type behind the task.",
+      "Write or choose a clear prompt.",
+      "Triage the curated output as correct, incorrect, or unclear.",
+      "Run a basic risk check and note one responsible-use choice.",
+      "Explain how the system and prompt shaped the output."
+    ]
+  },
+  {
+    "id": 12,
+    "week": 6,
+    "type": "Lab",
+    "title": "Integrated Build-and-Check (Lab)",
+    "page": 38,
+    "success": [
+      "I can run a build-and-check task through all four strands end-to-end.",
+      "I can record the accuracy and risk checks I made.",
+      "I can name which strand I most need to improve."
+    ],
+    "originalSteps": [
+      "Station 1: name the system type suited to the task and why.",
+      "Station 2: design a clear, specific prompt.",
+      "Station 3: triage the curated output for accuracy with a reason.",
+      "Station 4: run a risk assessment and choose a mitigation.",
+      "Give the output an accuracy verdict and a risk verdict.",
+      "Decide: use, do not use, or use-with-changes.",
+      "Diagnose the group's weakest strand before the signature solution."
+    ]
+  },
+  {
+    "id": 13,
+    "week": 7,
+    "type": "Core",
+    "title": "Signature Solution - Planning",
+    "page": 41,
+    "success": [
+      "I can state the goal of my solution in one clear sentence.",
+      "I can lay out a prompt structure with a role, a task, and one rule.",
+      "I can name the inputs my solution needs and how I will check the output.",
+      "I can describe one risk and one way my plan reduces it."
+    ],
+    "originalSteps": [
+      "Read your task card and write the goal in one sentence.",
+      "Build the prompt structure: role, task, and one rule.",
+      "List the inputs the prompt needs (no personal or identifying data).",
+      "Write your output-evaluation method (how you will check accuracy).",
+      "Name one risk and one way your plan reduces it, then submit for the approve-to-build gate."
+    ]
+  },
+  {
+    "id": 14,
+    "week": 7,
+    "type": "Lab",
+    "title": "Prototype and Pressure-Test the Plan (Lab)",
+    "page": 44,
+    "success": [
+      "I can run my prompt structure on a normal input and read the output.",
+      "I can pressure-test it with a tricky input and spot where it fails.",
+      "I can add a fallback branch that says what to do when a check fails.",
+      "I can record the change I made and the reason for it."
+    ],
+    "originalSteps": [
+      "Copy your approved prompt structure onto the prototype slot of your build/test log.",
+      "Run it on a normal curated input (teacher board) and record whether it met the goal.",
+      "Pressure-test with a tricky curated input; record what failed and the error type.",
+      "Write a fallback branch: 'If the check fails, then ___ and ask a person.'",
+      "Re-run on the tricky input if time allows and log the change you made and the reason."
+    ]
+  },
+  {
+    "id": 15,
+    "week": 8,
+    "type": "Core",
+    "title": "Signature Solution - Building",
+    "page": 47,
+    "success": [
+      "I can build my solution by following my approved plan.",
+      "I can evaluate outputs and flag ones that are wrong or unclear.",
+      "I can make one improvement and explain what changed and why.",
+      "I can keep personal data out of every prompt."
+    ],
+    "originalSteps": [
+      "Restate your goal and check on the build/test log.",
+      "Run your prompt structure on defined, curated inputs (teacher board) and record each output.",
+      "Evaluate each output against your check and flag any that are wrong or unclear.",
+      "Make one improvement to a rule or the structure in response to a flag.",
+      "Re-run and log the loop as evaluate -> change -> result."
+    ]
+  },
+  {
+    "id": 16,
+    "week": 8,
+    "type": "Lab",
+    "title": "Extended Build and Evaluation (Lab)",
+    "page": 50,
+    "success": [
+      "I can complete a working solution that follows my plan.",
+      "I can evaluate its outputs across several test inputs and measure accuracy.",
+      "I can handle an incorrect output gracefully using my fallback.",
+      "I can run a basic risk check and document the fix I made."
+    ],
+    "originalSteps": [
+      "Confirm your solution follows the plan and the fallback branch is wired in.",
+      "Define what counts as a correct output for your goal.",
+      "Run all six curated test inputs on the board and record each result.",
+      "Compute accuracy (correct out of six) and handle any failure with your fallback.",
+      "Document the fix and complete the three-question risk check (accuracy, clarity, no personal data)."
+    ]
+  },
+  {
+    "id": 17,
+    "week": 9,
+    "type": "Core",
+    "title": "Signature Solution - Refining & Finishing",
+    "page": 53,
+    "success": [
+      "I can finish my solution so it meets the success criteria our class agreed on.",
+      "I can judge my solution for accuracy, usefulness and risk using the rubric.",
+      "I can explain one change I made and say why it made the solution better."
+    ],
+    "originalSteps": [
+      "Open the agreed success-criteria card and read the three lenses.",
+      "Run one accuracy test using examples with known correct answers.",
+      "Run one usefulness check against what the real user needs.",
+      "Run one basic risk check (harm, fairness, privacy).",
+      "Choose the single most important improvement and record why.",
+      "Make the change and re-test to confirm it helped and broke nothing.",
+      "Swap with another pair for 'two stars and a wish' feedback."
+    ]
+  },
+  {
+    "id": 18,
+    "week": 9,
+    "type": "Lab",
+    "title": "Final Iteration and Risk Review (Lab)",
+    "page": 56,
+    "success": [
+      "I can run a final evaluation across accuracy, usefulness and risk and act on one improvement.",
+      "I can complete a risk review and confirm my solution is safe and fair.",
+      "I can record my final iteration with clear before-and-after evidence."
+    ],
+    "originalSteps": [
+      "Re-open the refinement log and set the Lab goal.",
+      "Make the final planned improvement to the solution.",
+      "Re-test with at least five known-answer cases and record before and after.",
+      "List possible risks (wrong answer, unfairness, privacy).",
+      "Place each risk on the likelihood-by-seriousness matrix.",
+      "Decide an action for any high risk and confirm no personal data is used.",
+      "Write a one-line safe-and-fair statement and freeze the version.",
+      "Swap matrices with another pair to sense-check placements."
+    ]
+  },
+  {
+    "id": 19,
+    "week": 10,
+    "type": "Core",
+    "title": "Showcase, Assessment & Reflection",
+    "page": 59,
+    "success": [
+      "I can present my finished solution and explain at least two design or evaluation choices.",
+      "I can show the term's key outcomes in a short assessment task.",
+      "I can state one thing I learned and set one goal for next term."
+    ],
+    "originalSteps": [
+      "Read the four-strand summary and set out your evidence.",
+      "Complete the short Term-1 assessment task individually.",
+      "Prepare a 60-second pitch naming user, problem and two justified choices.",
+      "Present to your small group.",
+      "Give one peer a specific 'why' question about their choices.",
+      "Write one thing learned and one Term-2 goal toward Proficient."
+    ]
+  },
+  {
+    "id": 20,
+    "week": 10,
+    "type": "Lab",
+    "title": "Showcase Carousel and Reflection (Lab)",
+    "page": 62,
+    "success": [
+      "I can present my solution in a showcase carousel and give structured peer feedback.",
+      "I can consolidate my reflections into a Term-2 goal across the four strands.",
+      "I can confirm my solution is responsible to use and honest about its limits."
+    ],
+    "originalSteps": [
+      "Set up your station with the frozen solution, evidence and responsible-use message.",
+      "Present your solution in 60 seconds, naming two justified choices.",
+      "Rotate to at least two other stations and leave 'two stars and a wish' feedback tagged to a strand.",
+      "Collect the feedback slips left at your own station.",
+      "Gather your term notes and feedback onto the four-strand summary.",
+      "Set one specific Term-2 goal aimed at Proficient.",
+      "Confirm your responsible-use message is complete and honest."
+    ]
+  }
+]
